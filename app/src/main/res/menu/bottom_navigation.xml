@@ -5,23 +5,21 @@
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_home"
         android:title="Home" />
-
-    <item
-        android:id="@+id/nav_assignment"
-        android:icon="@drawable/ic_assignment"
-        android:title="Assignment" />
-
     <item
         android:id="@+id/nav_search"
         android:icon="@drawable/ic_search"
         android:title="Search" />
     <item
-        android:id="@+id/nav_notifications"
-        android:icon="@drawable/ic_notifications"
-        android:title="Notifications" />
+        android:id="@+id/nav_add"
+        android:icon="@drawable/ic_add"
+        android:title="Add" />
+    <item
+        android:id="@+id/nav_like"
+        android:icon="@drawable/ic_heart"
+        android:title="Like" />
     <item
         android:id="@+id/nav_profile"
-        android:icon="@drawable/ic_profile_circle"
+        android:icon="@drawable/ic_profile"
         android:title="Profile" />
 
 </menu>

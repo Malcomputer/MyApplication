@@ -63,8 +63,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Toast.makeText(this, "worked now have the layer done", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_why:
-                Intent h = new Intent(MainActivity.this, Why.class);
+                Intent h = new Intent(MainActivity.this, BottomNavigation.class);
                 startActivity(h);
+                break;
+            case R.id.nav_textbox:
+                Intent text = new Intent(MainActivity.this, textboxActivity.class);
+                startActivity(text);
                 break;
         }
         drawer.closeDrawer(GravityCompat.START);
