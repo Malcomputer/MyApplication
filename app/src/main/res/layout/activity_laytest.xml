@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Mobile number -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded_input_field" />
+
+        <TextView
+            android:id="@+id/text_dummy_hint_mobile_number"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="Mobile Number"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:hint="Mobile Number"
+            android:textColorHint="@android:color/black"
+            app:hintTextAppearance="@style/HintTextStyle">
+
+            <EditText
+                android:id="@+id/num_textbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:inputType="text"
+                android:maxLines="1" />
+        </android.support.design.widget.TextInputLayout>
+    </RelativeLayout>
+
+    <!-- Promo code -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded_input_field" />
+
+        <TextView
+            android:id="@+id/text_dummy_hint_promo_code"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="Promo Code"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:hint="Promo Code"
+            android:textColorHint="@android:color/black"
+            app:hintTextAppearance="@style/HintTextStyle">
+
+            <EditText
+                android:id="@+id/edit_promo_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:inputType="text"
+                android:maxLines="1" />
+        </android.support.design.widget.TextInputLayout>
+    </RelativeLayout>
+</LinearLayout>
