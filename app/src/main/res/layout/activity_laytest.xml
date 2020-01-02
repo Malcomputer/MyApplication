@@ -31,7 +31,7 @@
             android:textSize="16sp"
             android:visibility="invisible" />
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="28dp"
@@ -47,7 +47,7 @@
                 android:backgroundTint="@android:color/transparent"
                 android:inputType="text"
                 android:maxLines="1" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
     </RelativeLayout>
 
     <!-- Promo code -->
@@ -75,7 +75,7 @@
             android:textSize="16sp"
             android:visibility="invisible" />
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="28dp"
@@ -91,6 +91,6 @@
                 android:backgroundTint="@android:color/transparent"
                 android:inputType="text"
                 android:maxLines="1" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
     </RelativeLayout>
 </LinearLayout>
